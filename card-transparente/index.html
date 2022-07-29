@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Transparentes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="slider">
+                <div class="load">
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>LEONARDO DA VINCI 1452-1519</h3>
+                    <p> Leonardo di Ser Piero da Vinci, ou simplesmente Leonardo da Vinci, 
+                        uma das figuras mais importantes do Alto Renascimento, que se destacou como cientista, 
+                        matemático, engenheiro, inventor, anatomista, pintor, escultor, arquiteto, botânico, poeta e músico.</p>
+                    <a href="#">Veja Mais</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>VINCENT VAN GOGH 1853-1890</h3>
+                    <p> Considerado uma das figuras mais famosas e influentes da história da arte ocidental, 
+                        criou mais de dois mil trabalhos ao longo de pouco mais de uma década, incluindo 860 pinturas a óleo, 
+                        grande parte das quais, concluídas nos seus últimos dois anos de vida.</p>
+                    <a href="#">Veja Mais</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>FRANZ XAVER WINTERHALTER 1805-1873</h3>
+                    <p> Alcançou fama por seus retratos da realeza europeia. Um de seus trabalhos mais conhecidos 
+                        é o retrato da imperatriz Eugénia de Montijo rodeada por suas damas de companhia, 
+                        de 1855 e os retratos da imperatriz Isabel da Baviera, de 1865.</p>
+                    <a href="#">Veja Mais</a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+                max:25,
+                speed: 400,
+                glare:true,
+                "max-glare":1,
+            });
+        </script>
+    </div>
+    
+    
+</body>
+</html>
